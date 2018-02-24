@@ -1,3 +1,48 @@
+@font-face {
+  font-family: 'manifold_dsabold';
+  src: url('/fonts/ManifoldDSA/manifolddsa-bold-webfont.woff2') format('woff2'),
+       url('/fonts/ManifoldDSA/manifolddsa-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'manifold_dsabold_italic';
+  src: url('/fonts/ManifoldDSA/manifolddsa-bolditalic-webfont.woff2') format('woff2'),
+       url('/fonts/ManifoldDSA/manifolddsa-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'manifold_dsademi_bold';
+  src: url('/fonts/ManifoldDSA/manifolddsa-demibold-webfont.woff2') format('woff2'),
+       url('/fonts/ManifoldDSA/manifolddsa-demibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'manifold_dsademi_bold_italic';
+  src: url('/fonts/ManifoldDSA/manifolddsa-demibolditalic-webfont.woff2') format('woff2'),
+       url('/fonts/ManifoldDSA/manifolddsa-demibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .dark {
   color: #333 !important;
 }
@@ -55,7 +100,7 @@ body {
   width: 100%;
   min-height: 100%;
   font-weight: 400;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+  font-family: 'manifold_dsademi_bold', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
   color: #111;
   line-height: 1.6;
   text-rendering: optimizeLegibility !important;
@@ -482,7 +527,7 @@ section.main .container .content .post-item .meta {
   color: #666;
   display: none;
   min-width: 100px;
-  text-align: right;
+  text-align: left;
   margin-right: 16px;
 }
 section.main .container .content .no-bullet {
