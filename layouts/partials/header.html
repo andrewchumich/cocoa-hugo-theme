@@ -93,5 +93,10 @@
             {{ end }}
         {{ end }}
         </div>
+        {{ if .Site.Params.footer_logo_img }}
+            <div class="footer-logo">
+                <a href="{{ .Site.Params.footer_logo_url}}"><img src="{{ .Site.Params.footer_logo_img }}" alt="dsausa.org"></a>
+            </div>
+        {{ end }}
     </div>
 </section>
