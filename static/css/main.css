@@ -696,6 +696,7 @@ section.main .content .markdown tbody tr:nth-child(odd) th {
   }
   section.header .name {
     color: #333;
+    font-size: 35px;
   }
   section.header nav {
     font-size: 14px;
