@@ -6,5 +6,6 @@
 <meta name="referrer" content="no-referrer">
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+<meta property="og:image" content="{{(print .Site.BaseURL .Site.Params.preview_image_url) }}" />
 
 {{ template "_internal/opengraph.html" . }}
