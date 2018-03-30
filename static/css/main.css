@@ -675,7 +675,7 @@ section.main .content .markdown tbody tr:nth-child(odd) th {
     justify-content: space-between;
   }
   .non-narrow.zero-top-spacing {
-    padding-top: 0 !important;
+    // padding-top: 0 !important;
   }
 
   section {
