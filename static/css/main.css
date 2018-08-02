@@ -43,6 +43,10 @@
 
 }
 
+html {
+  font-family: 'manifold_dsademi_bold', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
 .dark {
   color: #333 !important;
 }
