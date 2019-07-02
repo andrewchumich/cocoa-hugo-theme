@@ -224,6 +224,8 @@ section.header nav ul {
   display: -ms-inline-flexbox;
   display: -ms-inline-flex;
   display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 section.header nav ul li {
   margin-left: 6px;
@@ -695,6 +697,7 @@ section.main .content .markdown tbody tr:nth-child(odd) th {
 
   section.header span.header-content {
     align-self: center;
+    width: 100%;
   }
 
 
